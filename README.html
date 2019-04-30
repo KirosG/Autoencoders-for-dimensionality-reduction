@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>Autoencoders-for-dimensionality-reduction</h1><p>A simple, single hidden layer example of the use of an autoencoder for dimensionality reduction</p><p>A challenging task in the modern &#39;Big Data&#39; era is to reduce the feature space since it is very computationally expensive to perform any kind of analysis or modelling in today&#39;s extremely big data sets. There is variety of techniques out there for this purpose: PCA, LDA, Laplacian Eigenmaps, Diffusion Maps, etc...Here I make use of a Neural Network based approach, the Autoencoders. An autoencoder is essentially a Neural Network that replicates the input layer in its output, after coding it (somehow) in-between. In other words, the NN tries to predict its input after passing it through a stack of layers. The actual architecture of the NN is not standard but is user-defined and selected. Usually it seems like a mirrored image (e.g. 1st layer 256 nodes, 2nd layer 64 nodes, 3rd layer again 256 nodes).</p><p>In this simple, introductory example I only use one hidden layer since the input space is relatively small initially (92 variables). For larger feature spaces more layers/more nodes would possibly be needed. I am reducing the feature space from these 92 variables to only 16. The AUC score is pretty close to the best NN I have built for this dataset (0.753 vs 0.771) so not much info is sucrificed against our 5-fold reduction in data.</p><p>After building the autoencoder model I use it to transform my 92-feature test set into an encoded 16-feature set and I predict its labels. Since I know the actual y labels of this set I then run a scoring to see how it performs.</p><p>The data set used is the UCI credit default set which can be found here:<a href='https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients' target='_blank' class='url'>https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients</a></p><h2><a name='header-n7' class='md-header-anchor '></a>AutoEncoder-Based-Communication-System</h2><p>Implementation and result of AutoEncoder Based Communication System From Research Paper : &quot;An Introduction to Deep Learning for the Physical Layer&quot; <a href='http://ieeexplore.ieee.org/document/8054694/' target='_blank' class='url'>http://ieeexplore.ieee.org/document/8054694/</a></p><p>This Repo is effictively implementation of AutoEncoder based Communication System From Research Paper &quot;An Introduction to Deep Learning
+for the Physical Layer&quot; written by Tim O&#39;Shea and Jakob Hoydis.During My wireless Communication Lab Course,I worked on this research Paper
+and re-generated result of this research Paper.
+Idea of Deep learning Based Communication System is new and there is many advantages of Deep learning based Communication.This paper gives 
+complete different apporach than many other paper and tries to introduce deep learning in physical layer.</p><h1><a name='header-n10' class='md-header-anchor '></a>Abstract of Research Paper</h1><p><em>We present and discuss several novel applications of deep learning for the physical layer. By interpreting a communications system as an
+autoencoder, we develop a fundamental new way to think about communications system design as an end-to-end reconstruction task that seeks
+to jointly optimize transmitter and receiver components in a single process. We show how this idea can be extended to networks of multiple
+transmitters and receivers and present the concept of radio transformer networks as a means to incorporate expert domain knowledge in the
+machine learning model. Lastly, we demonstrate the application of convolutional neural networks on raw IQ samples for modulation
+classification which achieves competitive accuracy with respect to traditional schemes relying on expert features. This paper is concluded
+with a discussion of open challenges and areas for future investigation.</em></p><p>From &quot;An Introduction to Deep Learning for the Physical Layer&quot; <a href='http://ieeexplore.ieee.org/document/8054694/' target='_blank' class='url'>http://ieeexplore.ieee.org/document/8054694/</a> written by Tim O&#39;Shea and Jakob Hoydis</p><h1><a name='header-n13' class='md-header-anchor '></a>Requirements</h1><ul><li>Tensorflow</li><li>Keras</li><li>Numpy</li><li>Matplotlib</li></ul><h1><a name='header-n23' class='md-header-anchor '></a>Note </h1><p>Given Jupyter-Notebook file is dynamic to train any given (n,k) autoencodeer but for getting optimal result one has to manually tweak
+learning rate and epochs.
+Plots are generated by matlab script which for now i am not providing it.Anyone can plot result in matlab by training autoencoder and
+copy-pasting BER array and ploting it into matlab.
+All re-generated result  below are generated with autoencoder_dynamic.ipynb file.</p><h1><a name='header-n25' class='md-header-anchor '></a>Result </h1><figure><table><thead><tr><th style='text-align:center;' >Re-generated Result</th><th style='text-align:center;' >Research Paper</th></tr></thead><tbody><tr><td style='text-align:center;' ><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_1.PNG' alt='plot_1' referrerPolicy='no-referrer' /></td><td style='text-align:center;' ><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_2.PNG' alt='plot_2' referrerPolicy='no-referrer' /></td></tr><tr><td style='text-align:center;' >&nbsp;</td><td style='text-align:center;' >&nbsp;</td></tr></tbody></table></figure><p><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\research_paper_2.PNG' alt='research_paper_1' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_2.PNG' alt='plot_2' referrerPolicy='no-referrer' /></p><h1><a name='header-n39' class='md-header-anchor '></a>Constellation diagram </h1><h3><a name='header-n40' class='md-header-anchor '></a>(2,2) AutoEncoder&#39;s Constellation diagram</h3><p>Following Constellation diagram are learned by Autoencoder after training it.</p><p><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_1.PNG' alt='cons_1' referrerPolicy='no-referrer' /></p><h3><a name='header-n44' class='md-header-anchor '></a>(2,4) AutoEncoder Constellation diagram</h3><p><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_2.PNG' alt='cons_2' referrerPolicy='no-referrer' /></p><p><img src='C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_4.PNG' alt='cons_4' referrerPolicy='no-referrer' /></p><h1><a name='header-n48' class='md-header-anchor '></a>About Me</h1><p>Name : Kiros Gebremariam.
+This work was done by me during wireless communication Lab Project where I chosed project in research category.</p><h1><a name='header-n50' class='md-header-anchor '></a>license  </h1><p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p><p>&nbsp;</p></div>
+</body>
+</html>
