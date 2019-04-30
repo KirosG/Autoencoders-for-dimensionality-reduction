@@ -49,14 +49,9 @@ All re-generated result  below are generated with autoencoder_dynamic.ipynb file
 #  Result 
 Re-generated Result            |  Research Paper
 :-----------------------------:|:-------------------------:
-![plot_1](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_1.PNG)  | ![plot_2](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_2.PNG) 
+
  |  
 
-![research_paper_1](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\research_paper_2.PNG)
-
-
-
-![plot_2](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\plot_2.PNG)
 
 # Constellation diagram 
 
@@ -64,13 +59,10 @@ Re-generated Result            |  Research Paper
 
 Following Constellation diagram are learned by Autoencoder after training it.
 
-![cons_1](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_1.PNG)
 
 
 ### (2,4) AutoEncoder Constellation diagram
-![cons_2](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_2.PNG)
 
-![cons_4](C:\Users\kiraz\Documents\Data_science_formulas\Autoencoders-for-dimensionality-reduction-master\AutoEncoder-Based-Communication-System-master (1)\AutoEncoder-Based-Communication-System-master\git-photo\cons_4.PNG)
 
 
 # About Me
